@@ -63,4 +63,163 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.page-container{
+	width: 1200px;
+	
+}
+
+.nav-container{
+	margin-bottom: 70px;
+	/*display:inline-block;*/
+	display: inline-flex;
+	align-items: center;
+}
+
+.nav{
+	margin-top:35px;
+	margin-left: ;
+	display:inherit;
+	
+}
+
+.ul{
+	display:inline-block;
+	width: ;
+
+}
+
+li:first-child{
+	margin-left:73px;
+
+}
+
+a:link{
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+	color:gray;
+	margin-right: 55px;
+	margin-left:;
+	vertical-align: middle;
+}
+
+.logo{
+	display: ;
+	margin-left: 40px;
+	margin-top: 25px;
+	/* vertical-align: middle; */
+
+}
+
+.io-container{
+	vertical-align: middle;
+	display: flex;
+	flex-wrap: wrap;
+	/* margin-left: 200px; */
+	margin-bottom: 69px;
+	width: 80%;
+	border: black;
+	align-items: center;
+}
+
+.left-io{
+	/* display:inline-block; */
+	vertical-align: middle;
+	
+	display: flex;  
+	flex-direction: column;
+	width: 49%;
+}
+
+.right-io{
+	/* display:inline-block; */
+	vertical-align: middle;
+	
+	display: flex;  
+	width: 49%;
+	
+}
+
+
+
+
+.io-text{
+	font-size:70px;
+	padding-top: -;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.io-button{
+	
+	border-radius: 1px;
+	padding: 5px 10px 5px 10px;
+	border-color: black;
+	width: 150px;
+	margin-left: 155px;
+}
+
+
+.code-circle{
+	display:inline-block;
+	vertical-align: middle;
+	margin-left: 82px;
+	position: static;
+}
+
+.bottom-container{
+	width: 1000px;
+	background-color: ;
+	margin-left: 65px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.footer-etc{
+	margin-left: 65px;
+}
+
+.features{
+	width: 450px;
+	display: inline-block;
+}
+
+.about{
+	width: 450px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+hr{
+	width: 876px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+}
+
+.middle-img{
+	margin-bottom:30px;
+}
+
+.services{
+	width: 280px;
+	display: inline-block;
+	margin-right:20px;
+}
+
+.product{
+	width: 280px;
+	display: inline-block;
+	margin-right:20px;
+}
+
+.vision{
+	width: 280px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
